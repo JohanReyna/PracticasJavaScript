@@ -1,9 +1,9 @@
 function Multiplicacion(){
-    let num1 = 15
-    let num2 = 15
-    let resta = 0
+    let num1 = 15;
+    let num2 = 15;
+    let multiplicacion = num1 * num2;
 
-    // alert("El Resultado es:" + resta);
+    alert("El Resultado es:" + multiplicacion);
 
     document.write(num1 * num2);
 
