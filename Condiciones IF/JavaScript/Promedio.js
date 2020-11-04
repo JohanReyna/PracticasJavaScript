@@ -12,7 +12,7 @@ function CalcularPromedio(){
     
     var Cal4 = Number(document.getElementById("cal4").value);
 
-    var PrintResultado2 = document.getElementById("ResultadoF2")
+    var PrintResultado2 = document.getElementById("ResultadoF2");
 
     var PrintResultado = document.getElementById("ResultadoF");
 
@@ -37,14 +37,14 @@ function CalcularPromedio(){
         valorminimo = Math.min(Cal1, Cal2, Cal3, Cal4);
         PrintResultado2.innerText = "El Numero Minimo es " + valorminimo;
         Resultado = (Cal1 + Cal2 + Cal4) / 3;
-        PrintResultado.innerText = "El Promedio es " + Resultado;
+        PrintResultado.innerText = "El Promedio es " Resultado;
     }
 
     if(Cal4 < Cal1 && Cal4 < Cal2 && Cal4 < Cal3){
         valorminimo = Math.min(Cal1, Cal2, Cal3, Cal4);
         PrintResultado2.innerText = "El Numero Minimo es " + valorminimo;
         Resultado = (Cal1 + Cal2 + Cal3) / 3;
-        PrintResultado.innerText = "El Promedio es " + Resultado;
+        PrintResultado.innerText = "El Promedio es " Resultado;
     }
 
 }
