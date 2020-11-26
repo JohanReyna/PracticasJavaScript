@@ -5,6 +5,8 @@ function EventListener(){
 function NumerosPares(){
 
     var NumeroPar = document.getElementById("DosNdos");
+
+    NumeroPar.innerText = "";
     
     for(var x=10; x <= 20; x+=2){
         var DosNdos = document.createElement("li");

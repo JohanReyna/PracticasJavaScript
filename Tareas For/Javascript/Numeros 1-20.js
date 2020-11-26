@@ -5,6 +5,8 @@ function EventListener(){
 function NumeroClick(){
 
     var Print = document.getElementById("lista");
+
+    Print.innerText = "";
     
     for(var x=1; x <= 20; x++){
         var PrintN = document.createElement("li");
