@@ -1,0 +1,42 @@
+body{
+    padding: 10%;
+    background-image: url(../img/Fondo\ de\ login.jpg);
+}
+
+.fondo{
+    background-image: url(../img/medida.png);
+    width: 55%;
+    margin-left: 22% ;
+    border: 2px solid white;
+}
+
+img{
+    margin-left: 37%;
+    margin-top: -15%;
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+.form-check-label{
+    padding: 0 25%;
+    color: white;
+}
+
+span{
+    font-size: 17px;
+    margin-left: -15%;
+}
+
+.form-group{
+    padding: 0 25% ;
+    color: white;
+}
+
+#Login{
+    width: 30%;
+    margin-left: 35%;
+}
+
