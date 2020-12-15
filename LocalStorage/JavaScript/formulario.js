@@ -13,13 +13,15 @@ function GuardarInformacion(){
         if(Password1 == Password2){
             localStorage.setItem("Password", Password1);
             localStorage.setItem("Password2", Password2);
+
+            
+       alert("La informacion se guardo correctamente");
         }else{
             alert("Las contraseñas no coinciden");
         }
     }else{
         alert("Revisa la informacion, que no esta correcta");
     }
-    alert("La informacion se guardo correctamente");
 }
 
 function ObtenerInformacion(){
